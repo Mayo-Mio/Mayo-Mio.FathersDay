@@ -1,0 +1,117 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  padding: 40px;
+}
+
+#content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#message-container {
+  flex: 1;
+}
+
+#message-container h2 {
+  margin-top: 0;
+}
+
+#image-container {
+  flex: 1;
+  text-align: center;
+}
+
+#image-container img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+#carousel {
+  position: relative;
+  /* Add your carousel styles here */
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.carousel-slide.active {
+  display: block;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #333;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+#carousel img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* styles.css */
+
+#voucher-section {
+  text-align: center;
+}
+
+#voucher img {
+  width: 300px; /* Adjust the width as needed */
+  height: auto;
+}
+
+#voucher p {
+  margin-top: 20px;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
